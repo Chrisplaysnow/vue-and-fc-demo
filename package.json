@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "name": "vue-and-fc-demo",
+  "version": "1.0.0",
+  "description": "Minimal functional Project using FullCalendar.io together with Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrisplaysnow/vue-and-fc-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chrisplaysnow/vue-and-fc-demo/issues"
+  },
+  "homepage": "https://github.com/Chrisplaysnow/vue-and-fc-demo#readme",
+  "dependencies": {
+    "@fullcalendar/core": "^4.1.0",
+    "@fullcalendar/daygrid": "^4.1.0",
+    "@fullcalendar/vue": "^4.1.0"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  }
+}
